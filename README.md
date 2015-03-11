@@ -20,18 +20,18 @@ Mijozalr o'zlariga kerakli do'kon yoki xizmat ko'rsatish markazlarining web sahi
 
 ##Kompyuter va maishiy texnika va ularga xizmat ko'rsatish markzalariga kirilgandan so'ng unda quyidagi sahiflar mavjud
 ###Do'kon
-*Ro'yxatdan o'tish va kirish
-*Kompyuterlar bo'limi
-*boshqa texnkalar
-*onlayn konsultant
-*onlayn sotib olish va to'lovni amalga oshirish
+*Ro'yxatdan o'tish va kirish*
+*Kompyuterlar bo'limi*
+*boshqa texnkalar*
+*onlayn konsultant*
+*onlayn sotib olish va to'lovni amalga oshirish*
 
-###Xizmat ko'rsatish markazlari
-*Ro'yxatdan o'tish va kirish
-*Yangi dasturlar bo'limi
-*Ko'rsatiladigan xizmatlar turi
-*onlayn konsultant
-*to'lovni amalga oshirish
+###Xizmat ko'rsatish markazlari*
+*Ro'yxatdan o'tish va kirish*
+*Yangi dasturlar bo'limi*
+*Ko'rsatiladigan xizmatlar turi*
+*onlayn konsultant*
+*to'lovni amalga oshirish*
 
 	   
  
