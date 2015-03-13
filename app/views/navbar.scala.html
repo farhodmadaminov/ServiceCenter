@@ -1,5 +1,4 @@
 @(activePage: String)
-<html>
 <nav class="navbar navbar-inverse" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -12,8 +11,8 @@
         </div>
         <div class="collapse navbar-collapse navbar-left">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.scala.html"><strong>HOME</strong></a></li>
-                <li><a href="#"><strong>ABOUT US</strong></a></li>
+                <li class="active"><a href="#"><strong>HOME</strong></a></li>
+                <li class="@if(activePage == "about.html"){active}"><a href="@routes.Application.aboutus()"><strong>ABOUT US</strong></a></li>
                 <li><a href="#"><strong>FOR CLIENTS</strong></a></li>
                 <li><a href="#"><strong>MODERN TECHNOLOGIES</strong></a></li>
             </ul>
@@ -26,6 +25,4 @@
             </ul>
         </div>
     </div>
-    <div></div>
 </nav>
-</html>
