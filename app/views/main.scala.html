@@ -1,15 +1,26 @@
 @(title: String)(content: Html)
-
+@navbar("navbar")
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>SERVICES | CENTER</title>
-        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <link rel="stylesheet" href="@routes.Assets.at("stylesheets/bootstrap/css/bootstrap.min.css")">
+        <link rel="stylesheet" href="@routes.Assets.at("stylesheets/main.css")">
+        <script src="@routes.Assets.at("stylesheets/bootstrap/js/jquery.js")"></script>
+        <script src="@routes.Assets.at("stylesheets/bootstrap/js/bootstrap.min.js")"></script>
         <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
     </head>
-    <body>
-        <h1>Hello world!!!</h1>
+    <body style="background-color: #d9edf7">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    @registration("registration")
+                </div>
+                <div class="col-xs-3">
+                    <center><img class="img-responsive" style="width: 200px;height: 200px" src="@routes.Assets.at("images/111.png")"></center>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
